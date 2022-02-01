@@ -3,7 +3,7 @@ const Contact = function () {
   return (
     <Section className=" " id="contactUs">
       <div className="">
-        <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
+        <h1 className="text-3xl lg:text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
           Contact
         </h1>
 
@@ -14,20 +14,20 @@ const Contact = function () {
             name="email"
             type="email"
             placeholder="Email"
-            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 focus:outline-none"
+            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 focus:outline-none w-full md:w-max"
           />
           <input
             name="Name"
             type="text"
             placeholder="Name"
-            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 focus:outline-none"
+            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 focus:outline-none w-full md:w-max"
           />
           <textarea
             name="Text"
             placeholder="Leave a message"
-            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 w-3/4 h-48 focus:outline-none"
+            className="p-5 mb-5 bg-owlBlack border border-gray-700 rounded shadow-sm h-12 text-gray-500 md:w-3/4 h-48 focus:outline-none w-full "
           />
-          <button className=" bg-yellowOwl rounded-tr-xl rounded-bl-xl p-4 text-black hover:rounded-lg  duration-300 cursor-pointer ">
+          <button className=" bg-yellowOwl rounded-tr-xl rounded-bl-xl p-4 text-black hover:rounded-lg  duration-300 cursor-pointer hover:text-white ">
             Submit
           </button>
         </div>

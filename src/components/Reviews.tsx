@@ -41,7 +41,7 @@ const Reviews = function () {
   return (
     <Section className=" " id="reviewsSec">
       <div className=" ">
-        <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
+        <h1 className="text-3xl lg:text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
           Reviews
         </h1>
 

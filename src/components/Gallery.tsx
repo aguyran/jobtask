@@ -19,29 +19,29 @@ const Gallery = function () {
   return (
     <Section className=" " id="gallerySec">
       <div className="">
-        <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
+        <h1 className="text-3xl lg:text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
           Gallery
         </h1>
       </div>
       <div className="">
         <div ref={sliderRef} className="keen-slider  text-white">
           <div className="keen-slider__slide flex justify-center items-center ">
-            <img src="/assets/2.png" />
+            <img src="/assets/1.png" />
           </div>
           <div className="keen-slider__slide flex justify-center items-center ">
             <img src="/assets/2.png" />
           </div>
           <div className="keen-slider__slide flex justify-center items-center ">
-            <img src="/assets/2.png" />
+            <img src="/assets/3.png" />
           </div>
           <div className="keen-slider__slide flex justify-center items-center ">
-            <img src="/assets/2.png" />
+            <img src="/assets/4.png" />
           </div>
           <div className="keen-slider__slide flex justify-center items-center">
-            <img src="/assets/2.png" />
+            <img src="/assets/5.png" />
           </div>
           <div className="keen-slider__slide flex justify-center items-center">
-            <img src="/assets/2.png" />
+            <img src="/assets/5.png" />
           </div>
         </div>
         {loaded && instanceRef.current && (
