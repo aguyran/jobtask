@@ -1,10 +1,10 @@
 import Section from "./Section";
-const About = function () {
+const Reviews = function () {
   return (
     <Section className=" ">
       <div className="mt-12 mb-24 ">
         <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
-          About Us
+          Reviews
         </h1>
         <p className="mx-2 text-white mb-8">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quos
@@ -21,4 +21,4 @@ const About = function () {
     </Section>
   );
 };
-export default About;
+export default Reviews;

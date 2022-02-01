@@ -1,7 +1,7 @@
 const Navbar = function () {
   return (
     <div className="flex justify-center ">
-      <div className=" my-14 flex justify-between items-center w-full ">
+      <div className=" my-14 flex justify-between items-center w-full  sticky ">
         <div className="flex items-center">
           <img src="/assets/image 1.png" className="w-1/4" />
           <h1 className="mx-2 text-white text-3xl">VPN OWL</h1>
