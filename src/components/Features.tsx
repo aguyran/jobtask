@@ -2,8 +2,8 @@ import FeatureCard from "./FeatureCard";
 import Section from "./Section";
 const Features = function () {
   return (
-    <Section className="">
-      <div className="mt-12 mb-24 ">
+    <Section className="" id="featuresSec">
+      <div className=" ">
         <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
           Features
         </h1>

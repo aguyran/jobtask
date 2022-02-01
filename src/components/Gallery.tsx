@@ -17,13 +17,13 @@ const Gallery = function () {
   });
 
   return (
-    <Section className=" ">
-      <div className="mt-12 mb-24 ">
+    <Section className=" " id="gallerySec">
+      <div className="">
         <h1 className="text-4xl text-white  mb-4 border-b-4 border-yellowOwl inline-block mx-auto ">
           Gallery
         </h1>
       </div>
-      <div className="mb-8">
+      <div className="">
         <div ref={sliderRef} className="keen-slider  text-white">
           <div className="keen-slider__slide flex justify-center items-center ">
             <img src="/assets/2.png" />
@@ -53,7 +53,8 @@ const Gallery = function () {
                     <span
                       key={i}
                       className={
-                        i === currentSlide ? "text-yellowOwl" : "text-white"
+                        "cursor-pointer " +
+                        (i === currentSlide ? "text-yellowOwl " : "text-white")
                       }
                       onClick={() => {
                         instanceRef.current?.moveToIdx(i);

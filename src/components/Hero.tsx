@@ -1,7 +1,7 @@
 import { BsDownload } from "react-icons/bs";
 const Hero = function () {
   return (
-    <div className="min-h-full my-24 " >
+    <div className="min-h-full my-24 flex">
       <div className="max-w-2xl">
         <h1 className="text-white text-6xl mb-4">
           <span className="text-yellowOwl">Reimagining</span> Privacy
@@ -14,12 +14,18 @@ const Hero = function () {
           reprehenderit corrupti modi perferendis deleniti vitae! Deserunt
           minima eveniet corporis voluptatibus?
         </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=openvpn.vpn"
+          target="_blank"
+          rel="noreferrer"
+          className="text-2xl bg-yellowOwl rounded-tr-xl rounded-bl-xl p-4  w-1/2 inline-block flex justify-center items-center hover:rounded-lg  duration-300 cursor-pointer"
+        >
+          <BsDownload className="inline-block mx-2 " />
+          Download Now
+        </a>
       </div>
 
-      <a className="text-2xl bg-yellowOwl rounded-tr-xl rounded-bl-xl p-4  w-1/2 inline-block flex justify-center items-center">
-        <BsDownload className="inline-block mx-2 " />
-        Download Now
-      </a>
+      <img src="/assets/Lighthouse-pana.svg" className="w-96 " />
     </div>
   );
 };
