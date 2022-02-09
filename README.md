@@ -1,2 +1,2 @@
 # jobtask
-internship task ignore
+job task ignore
